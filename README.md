@@ -1,2 +1,4 @@
-# alexa-flashbriefing-fieldbook
-Make a flashbriefing using fieldbook as your CMS
+Life Hacks: An Alexa Skill
+=========================
+
+I made an Alexa Flash Briefing Skill.
