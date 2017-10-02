@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.4",
+    "express": "^4.16.1",
     "moment": "^2.18.1",
     "requestify": "^0.2.5",
     "lodash": "^4.17.4",
