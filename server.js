@@ -31,6 +31,7 @@ app.get("/", async (request, response) => {
   // mainText += "It is " + nowMoment.format('LLL') + ". and " +nowMoment.format('s')+ "seconds.";
   // mainText += hack.text;
   // console.log('nowMoment', nowMoment.format('YYYY-MM-DDTHH:mm:ss.S'));
+  const host = request.headers['host'];
   const redirectionUrl = 'https://' +host+ '/redirect?url=' +encodeURIComponent(hack.url)+ '&hack_id=' +hack.id+ '&hack_name=' +encodeURIComponent(hack.name);
   const flashJson = [
     {
